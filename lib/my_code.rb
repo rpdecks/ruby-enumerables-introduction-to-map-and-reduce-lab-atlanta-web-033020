@@ -55,8 +55,9 @@ def reduce_to_all_true(source_array)
       break
     end
     i += 1 
-  end  
-  if inner_index = source_array.length
+  end
+  
+  if i >= source_array.length
     return true
   else
     return false
